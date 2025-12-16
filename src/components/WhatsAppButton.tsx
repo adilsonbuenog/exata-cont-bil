@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
-  const whatsappLink = "https://wa.me/5544999264057?text=Olá! Gostaria de saber mais sobre os serviços da Exata Assessoria Contábil.";
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=5544999264057";
 
   return (
     <a
