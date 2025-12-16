@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import heroBg from '@/assets/hero-bg.jpg';
 
 const HeroSection = () => {
-  const whatsappLink = "https://wa.me/5544999264057?text=Olá! Gostaria de falar com um contador da Exata.";
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=5544999264057";
 
   return (
     <section className="relative min-h-[90vh] flex items-center">
