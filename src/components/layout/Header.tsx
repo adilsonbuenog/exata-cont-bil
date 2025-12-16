@@ -25,11 +25,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-         <Link to="/" className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-3">
           <img
             src="/logo-exata.jpeg"
             alt="Exata Assessoria Contábil"
-            className="h-12 w-auto object-contain"
+            className="h-12 sm:h-14 w-auto object-contain"
           />
         </Link>
 
