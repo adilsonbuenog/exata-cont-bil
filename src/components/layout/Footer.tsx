@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Instagram, Clock, MessageCircle } from 'lucide-rea
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
-  const whatsappLink = "https://wa.me/5544999264057?text=Olá! Gostaria de saber mais sobre os serviços da Exata Assessoria Contábil.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=5544999264057&text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Exata%20Assessoria%20Cont%C3%A1bil.";
 
   return (
     <footer className="bg-primary text-primary-foreground">
