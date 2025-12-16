@@ -25,17 +25,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">EX</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-display font-bold text-xl text-primary tracking-tight">EXATA</span>
-                <span className="text-[10px] text-muted-foreground tracking-widest uppercase">Assessoria Contábil</span>
-              </div>
-            </div>
-          </Link>
+         <Link to="/" className="flex items-center gap-3">
+          <img
+            src="/logo-exata.jpeg"
+            alt="Exata Assessoria Contábil"
+            className="h-12 w-auto object-contain"
+          />
+        </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
