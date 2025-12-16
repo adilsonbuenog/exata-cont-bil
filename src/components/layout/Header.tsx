@@ -18,7 +18,7 @@ const Header = () => {
 
   const isActive = (href: string) => location.pathname === href;
 
-  const whatsappLink = "https://api.whatsapp.com/send?phone=5544999264057&text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Exata%20Assessoria%20Cont%C3%A1bil.";
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=5544999264057";
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
