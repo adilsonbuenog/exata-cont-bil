@@ -27,7 +27,7 @@ const Header = () => {
           {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
           <img
-            src="/logo-exata2.jpeg"
+            src="/logo-exata2.png"
             alt="Exata Assessoria Contábil"
             className="h-16 sm:h-18 w-auto object-contain"
           />
