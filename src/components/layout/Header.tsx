@@ -29,7 +29,7 @@ const Header = () => {
           <img
             src="/logo-exata.jpeg"
             alt="Exata Assessoria Contábil"
-            className="h-20 sm:h-24 w-auto object-contain"
+            className="h-16 sm:h-18 w-auto object-contain"
           />
         </Link>
 
