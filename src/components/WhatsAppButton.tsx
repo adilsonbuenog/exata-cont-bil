@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
-  const whatsappLink = "https://api.whatsapp.com/send/?phone=5544999264057";
+  const whatsappLink = "https://wa.me/5544999264057?text=Olá! Gostaria de falar com um contador da Exata.";
 
   return (
     <a
