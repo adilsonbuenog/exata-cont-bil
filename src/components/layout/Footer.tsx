@@ -130,9 +130,10 @@ const Footer = () => {
             <p className="text-primary-foreground/60 text-sm text-center md:text-left">
               © {currentYear} EXATA ASSESSORIA CONTÁBIL LTDA. CNPJ: 58.230.738/0001-25. Todos os direitos reservados.
             </p>
-            <p className="text-primary-foreground/60 text-sm">
-              Responsáveis: Alexandre Oliveira e Tiago Nery - Contadores
-            </p>
+            <div className="flex flex-col items-center md:items-end gap-1 text-primary-foreground/60 text-sm">
+              <p>Responsáveis: Alexandre Oliveira e Tiago Nery - Contadores</p>
+              <p>desenvolvido por Bueno &amp; Maestri</p>
+            </div>
           </div>
         </div>
       </div>
